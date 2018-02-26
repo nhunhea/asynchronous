@@ -1,5 +1,5 @@
 var fs = require('fs');
-var path = cdrequire('path');
+var path = require('path');
 
 console.log('Tes 1');
 fs.readFile(path.join(path.dirname(__filename), 'tes.txt'), 'utf8', function(error, contents) {
